@@ -20,13 +20,21 @@ _a user interface that will give the user a variety of outputs_
     * _input: 3_
     * _output: "I'm sorry dave, I'm afraid i can't do that."_
 
-  * _replace all Numbers that contain 1 with "boop!"_
+  * _replace Number 1 with "boop!"_
     * _input: 1_
     * _output: "boop!"_
 
-  * _replace all Numbers that contain 0 with "beep!"_
-    * _input: 1_
+  * _replace Number 0 with "beep!"_
+    * _input: 0_
     * _output: "beep!"_
+
+  * _replace all numbers containing 1 with "boop!"_
+    * _input: 13_
+    * _output: boop3_
+
+  * _replace all numbers containing 0 with "beep!"_
+      * _input: 20_
+      * _output: 2Beep_
 
 
 
@@ -49,7 +57,7 @@ _a user interface that will give the user a variety of outputs_
 
 ### Known bugs
 
-_not able to display user input_
+_will only work for numbers 0-9_
 
 #### contact: onyx.shane@gmail.com
 
