@@ -16,6 +16,10 @@ _a user interface that will give the user a variety of outputs_
     * _input: 2_
     * _output: [1,2]_
 
+  * _replace all Numbers that are divisible by 3 with "I'm sorry dave, I'm afraid i can't do that."_
+    * _input: 3_
+    * _output: "I'm sorry dave, I'm afraid i can't do that."_
+
   * _replace all Numbers that contain 1 with "boop!"_
     * _input: 1_
     * _output: "boop!"_
@@ -24,9 +28,6 @@ _a user interface that will give the user a variety of outputs_
     * _input: 1_
     * _output: "beep!"_
 
-  * _replace all Numbers that are divisible by 3 with "I'm sorry dave, I'm afraid i can't do that."_
-    * _input: 3_
-    * _output: "I'm sorry dave, I'm afraid i can't do that."_
 
 
 
