@@ -1,13 +1,14 @@
 // //back end
 var userString = function(userNumber){
-  var result = [];
-  console.log(result)
+  var userArray = [];
+  alert('1')
   for (var i = 0; i <= userNumber; i++) {
-    var index = result.indexOf(i);
-    result.push(i);
+    userArray.push(i);
+    console.log(userArray)
   };
-alert("1");
+  return userArray;
 };
+
 
 
 
@@ -18,7 +19,6 @@ $(document).ready (function() {
     event.preventDefault();
     var userNumber = parseInt($('#user-number').val());
     console.log(userNumber)
-    var output = userString(userNumber);
-    $('#output').text(result);
+    $('#output').text(userString(userNumber));
   });
 });
