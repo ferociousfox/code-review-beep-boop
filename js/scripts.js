@@ -1,21 +1,24 @@
 // //back end
-var userString = function(number){
-  for (var i = 0; i < number; i++)
-  var index = result.indexOf(i);
-  result.push(i);
+var userString = function(userNumber){
+  var result = [];
+  console.log(result)
+  for (var i = 0; i <= userNumber; i++) {
+    var index = result.indexOf(i);
+    result.push(i);
+  };
+alert("1");
 };
+
+
 
 
 //front end
 $(document).ready (function() {
-  $('#input').submit(function(event){
+  $('#hal9000').submit(function(event) {
     event.preventDefault();
-    $('#output').empty();
     var userNumber = parseInt($('#user-number').val());
-    var output = countUp(userNumber);
-
-    output.forEach(function(_numberList){
-      $('#output').append('<li>' + _numberList + '</li>')
-    });
+    console.log(userNumber)
+    var output = userString(userNumber);
+    $('#output').text(result);
   });
 });
