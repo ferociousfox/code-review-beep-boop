@@ -2,14 +2,15 @@
 var userString = function(userNumber){
   var userArray = [];
   for (var i = 0; i <= userNumber; i++) {
-   userArray.push(i);
    if (i === 0){
-     userArray[i] = " beep! "
+     userArray.push(" beep! ")
    } else if (i === 1){
-    userArray[i] = " boop! "
+    userArray.push(" boop! ")
    } else if (i % 3 === 0){
-    userArray[i] = " I'm sorry dave, I can't do that. "
-  };
+    userArray.push(" I'm sorry dave, I can't do that. ")
+  }else {
+    userArray.push(i);
+  }
 
 
 
