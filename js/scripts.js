@@ -8,13 +8,9 @@ var userString = function(userNumber){
     userArray.push(" boop! ")
    } else if (i % 3 === 0){
     userArray.push(" I'm sorry dave, I can't do that. ")
-  }else {
+   } else {
     userArray.push(i);
   }
-
-
-
-
 };
 return userArray;
 };
